@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-9">
+    <title>(Location Cards Hub)</title>
+    <link rel="stylesheet" type="text/css" href="maps.css">
+  </head>
+  <body>
+    <a href="index.html"<img src="IMG_7374.png" height="250" width="358"></a>
+    <h1>Map Templates</h1>
+    <div class="locationcards-item">
+      <h2>Narrator's Map</h2>
+      <p>The game master will use this map as reference for hidden items, critters, etc.</p>
+      <img src="Narrator Map.png" frameborder="0" width="480" height="270" style="border: 1.5px solid black"> 
+      <h2>Player's Map</h2>
+      <p></p>
+      <img src="Player Extension.png" frameborder="0" width="480" height="270" style="border: 1.5px solid black"> 
+      <img src="Player Map.png" frameborder="0" width="480" height="270" style="border: 1.5px solid black"> 
+    </div>
+    <h1>Available Map Packs</h1>
+    <div class="locationcards-item">
+      <a href="https://drive.google.com/file/d/19UdvJ22wessePjjdPile9FMkPzfO6oP8/view?usp=sharing" <h2>Townhouse Manor</h2> target="_blank">Download</a>
+      <img src="Lodge.png" frameborder="0" width="179" height="268" alt="Townhouse Manor Sample">
+    </div>
+  </body>
+    <header class="locationcards-item">
+      <h3><a href="index.html">Back to the Critter Card Hub</a></h3>
+      <h3><a href="rulecards.html">Learn More about Critter Rule</a></h3>
+      <h3><a href="storycards.html">Check out Story Modules and Items</a></h3>      
+    </header>
+</html>
