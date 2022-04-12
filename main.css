@@ -32,5 +32,5 @@ padding: 40px;
 background-color: #A6F5EF;
 }
 
-p:hover, h1:hover, a:hover {
+a:hover {
   background-color: #F9E130;
