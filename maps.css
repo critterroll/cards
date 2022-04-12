@@ -1,0 +1,33 @@
+body {
+  margin: 30px auto;
+  max-width: 1000px;
+  font-family: "Lora";
+  line-height: 1.5;
+  padding: 30px 20px;
+  text-align: center;
+  text-color: #581845;
+  background-color: #3684D6;
+  background-image: url("background_map.png");
+  background-size: cover;
+  height: 100%
+}
+
+h1 {
+  padding: 20px 0px 10px 0px;
+}
+
+a {
+color: #36709D;
+text-decoration: none;
+}
+
+img {
+display: block;
+margin: 0px auto;
+}
+
+.locationcards-item {
+margin-top: 60px;
+padding: 40px;
+background-color: #D06588;
+}
