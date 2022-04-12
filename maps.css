@@ -31,3 +31,6 @@ margin-top: 60px;
 padding: 40px;
 background-color: #D06588;
 }
+
+p:hover, h1:hover, a:hover {
+  background-color: #F9E130;
