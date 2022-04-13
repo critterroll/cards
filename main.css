@@ -1,7 +1,7 @@
 body {
   margin: 30px auto;
   max-width: 1000px;
-  font-family: "Catamaran";
+  font-family: "Trebuchet MS";
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
@@ -34,3 +34,16 @@ background-color: #A6F5EF;
 
 a:hover {
   background-color: #F9E130;
+  
+.container {
+        display: grid;
+        grid-template-columns: 100px 100px; 
+        grid-template-rows: 100px;
+        grid-column-gap: 5px;
+      }
+      
+      .item {
+      background: #ce8888;
+ 
+       
+      }
