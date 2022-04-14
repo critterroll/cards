@@ -4,7 +4,7 @@ body {
   font-family: "Trebuchet MS";
   line-height: 1.5;
   padding: 30px 20px;
-  text-align: center;
+  text-align: top;
   text-color: #581845;
   background-color: linear-gradient (#3684D6, #7BBCD2);
   background-image: url("background_alternate.png");
