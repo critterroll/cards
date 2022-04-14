@@ -31,6 +31,9 @@ margin-top: 30px;
 padding: 20px;
 background-color: #A6F5EF;
 order: 1;
+  a:hover {
+  text-color: #C383E5;
+  background-color: #F9E130;
 }
 
 .tab-item {
