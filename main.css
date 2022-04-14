@@ -38,9 +38,15 @@ padding: 20px;
 background-color: #ce8888;
 }
 
+.divider-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #5F9BAF;
+}
+
 a:hover {
   text-color: #C383E5;
-  background-color: #F9E130;
+  background-color: #ce8888;
 }
   
 .container {
