@@ -49,7 +49,12 @@ a:hover {
 }
  
 #image > img {
-    width: 428px;
-    height: 640px;
+  width: 428px;
+  height: 640px;
        
+      }
+
+.card-item > img {
+    display: none;
+  
       }
