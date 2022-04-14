@@ -4,7 +4,7 @@ body {
   font-family: "Trebuchet MS";
   line-height: 1.5;
   padding: 30px 20px;
-  text-align: top;
+  text-align: center;
   text-color: #581845;
   background-color: linear-gradient (#3684D6, #7BBCD2);
   background-image: url("background_alternate.png");
@@ -30,6 +30,12 @@ margin: 0px auto;
 margin-top: 30px;
 padding: 20px;
 background-color: #A6F5EF;
+}
+
+.tab-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #ce8888;
 }
 
 a:hover {
