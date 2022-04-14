@@ -16,6 +16,11 @@ h1 {
   padding: 20px 0px 10px 0px;
 }
 
+a:hover {
+  text-color: #C383E5;
+  background-color: #F9E130;
+}
+
 a {
 color: #36709D;
 text-decoration: none;
