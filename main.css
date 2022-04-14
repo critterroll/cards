@@ -49,7 +49,7 @@ a:hover {
 }
  
 #image > img {
-    height: 640
-    width: 428
+    width: 428;
+    height: 640;
        
       }
