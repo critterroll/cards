@@ -103,32 +103,26 @@
       <script>
         y= Math.floor(Math.random()*750 )+1;
         console.log(y)
-        if(y<460){  
+        if(y<46){  
           G= Math.floor(Math.random()*20 )+2;
           console.log(G)
          
           x= document.getElementById(G);
           x.removeAttribute("hidden");
           document.getElementById("image").appendChild(x);
-      } else if(y<680){
+      } else if(y<68){
           G= Math.floor(Math.random()*20 )+22;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
-      } else if(y<750){
-          G= Math.floor(Math.random()*20 )+42;
-          console.log(G)
-            x= document.getElementById(G);
-            x.removeAttribute("hidden");
-            document.getElementById("image").appendChild(x);
-      }  
       } else {
           G= Math.floor(Math.random()*20 )+43;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
+      }  
       }  
       </script>
     </div>
