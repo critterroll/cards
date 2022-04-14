@@ -30,24 +30,18 @@ margin: 0px auto;
 margin-top: 30px;
 padding: 20px;
 background-color: #A6F5EF;
-order: 1;
-  a:hover {
-  text-color: #C383E5;
-  background-color: #F9E130;
 }
 
 .tab-item {
 margin-top: 30px;
 padding: 20px;
 background-color: #CE8888;
-order: 3;  
 }
 
 .divider-item {
 margin-top: 30px;
 padding: 20px;
 background-color: #93D5EA;
-order: 2;
 }
 
 a:hover {
