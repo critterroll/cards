@@ -16,11 +16,6 @@ h1 {
   padding: 20px 0px 10px 0px;
 }
 
-a:hover {
-  text-color: #C383E5;
-  background-color: ##FDEC45;
-}
-
 a {
 color: #36709D;
 text-decoration: none;
@@ -35,4 +30,9 @@ margin: 0px auto;
 margin-top: 60px;
 padding: 40px;
 background-color: #D06588;
+}
+
+a:hover {
+  text-color: #C383E5;
+  background-color: #FDEC45;
 }
