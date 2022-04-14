@@ -27,8 +27,8 @@ margin: 0px auto;
 }
 
 .index-item {
-margin-top: 40px;
-padding: 20px;
+margin-top: 20px;
+padding: 15px;
 background-color: #A6F5EF;
 }
 
@@ -45,7 +45,7 @@ a:hover {
   background: #ce8888;
   flex-basis: 100px;
   height: 100px;
-  margin: 5px;
+  margin: 2px;
 }
  
 #image > img {
