@@ -35,7 +35,7 @@ background-color: #A6F5EF;
 .tab-item {
 margin-top: 30px;
 padding: 20px;
-background-color: #ce8888;
+background-color: #CE8888;
 }
 
 .divider-item {
@@ -54,7 +54,7 @@ a:hover {
 }
 
 .item {
-  background: #ce8888;
+  background: #CE8888;
   flex-basis: 70px;
   height: 50px;
   margin: 20px;
