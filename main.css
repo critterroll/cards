@@ -46,7 +46,7 @@ background-color: #93D5EA;
 
 a:hover {
   text-color: #C383E5;
-  background-color: #F7D943;
+  text-shadow: 3px 3px 6px #F7D943;
 }
   
 .container {
