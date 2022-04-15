@@ -32,6 +32,12 @@ padding: 35px;
 background-color: #D06588;
 }
 
+.maps-item {
+margin-top: 45px;
+padding: 25px;
+background-color: #DCC5EC;
+}
+
 a:hover {
   text-color: #C383E5;
   text-shadow: 2px 2px #BCB0E7;
