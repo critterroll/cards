@@ -103,7 +103,7 @@
       <script>
         y= Math.floor(Math.random()*75)+1;
         console.log(y)
-        if(y<50){  
+        if(y<46){  
           G= Math.floor(Math.random()*20 )+2;
           console.log(G)
          
@@ -116,14 +116,8 @@
             x= document.getElementById(G);
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
-      } else if(y<75){
-          G= Math.floor(Math.random()*20 )+42;
-          console.log(G)
-            x= document.getElementById(G);
-            x.removeAttribute("hidden");
-            document.getElementById("image").appendChild(x);
       } else {
-          G= Math.floor(Math.random()*20 )+43;
+          G= Math.floor(Math.random()*20 )+42;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
