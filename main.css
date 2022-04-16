@@ -1,6 +1,6 @@
 body {
   margin: 30px auto;
-  max-width: 1650px;
+  max-width: 1200px;
   font-family: "Trebuchet MS";
   line-height: 1.5;
   padding: 30px 20px;
@@ -82,7 +82,7 @@ a:hover {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 27%;
+  width: 30%;
   padding: 2px;
 }
 
