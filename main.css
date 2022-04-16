@@ -6,7 +6,7 @@ body {
   padding: 30px 20px;
   text-align: center;
   background-color: #3684D6;
-  background-image: url("background_alternate1.png");
+  background-image: url("background_alternate.png");
   background-size: cover;
   height: 100%
 }
@@ -35,7 +35,7 @@ background-color: #A6F5EF;
 margin-top: 30px;
 padding: 20px;
 background-color: #A6F5EF;
-text-align: center;
+text-align: left;
 text-color: #19595C;
 }
 
