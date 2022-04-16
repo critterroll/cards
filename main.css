@@ -31,13 +31,6 @@ padding: 20px;
 background-color: #A6F5EF;
 }
 
-.block1 {
-margin-top: 30px;
-padding: 20px;
-background-color: #A6F5EF;
-opacity: 0.8;
-}
-
 .description-item {
 margin-top: 30px;
 padding: 20px;
@@ -73,7 +66,6 @@ a:hover {
   flex-basis: 70px;
   height: 50px;
   margin: 20px;
-  opacity: 1;
 }
  
 #image > img {
