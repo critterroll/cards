@@ -85,3 +85,11 @@ a:hover {
   clear: both;
   display: table;
 }
+.container {
+  overflow: hidden;
+}
+
+.sliding-background {
+  height: 500px;
+  width: 5076px;
+}
