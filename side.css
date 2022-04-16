@@ -33,3 +33,6 @@ background-color: #D179A8;
 
 a:hover {
   background-color: #F9E130;
+  text-shadow: 3px 3px 6px #FFFEE9;
+  font-size: 21px;
+}
