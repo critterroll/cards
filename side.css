@@ -1,7 +1,7 @@
 body {
   margin: 30px auto;
   max-width: 1000px;
-  font-family: "Georgia";
+  font-family: "Trebuchet";
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
@@ -27,7 +27,7 @@ margin: 0px auto;
 
 .storymodules-item {
 margin-top: 60px;
-padding: 40px;
+padding: 48px;
 background-color: #F6DC55;
 }
 
@@ -38,8 +38,8 @@ background-color: #F6DC55;
 .item {
   background: #CE8888;
   flex-basis: 70px;
-  height: 50px;
-  margin: 20px;
+  height: 60px;
+  margin: 30px;
 }
 
 a:hover {
