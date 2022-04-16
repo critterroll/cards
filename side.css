@@ -1,7 +1,7 @@
 body {
   margin: 30px auto;
   max-width: 1000px;
-  font-family: "Trebuchet";
+  font-family: "Trebuchet MS";
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
@@ -16,7 +16,7 @@ h1 {
 }
 
 a {
-color: #533E75;
+color: #36709D;
 text-decoration: none;
 }
 
@@ -26,8 +26,8 @@ margin: 0px auto;
 }
 
 .storymodules-item {
-margin-top: 60px;
-padding: 48px;
+margin-top: 30px;
+padding: 20px;
 background-color: #F6DC55;
 }
 
