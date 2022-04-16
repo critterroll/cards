@@ -82,7 +82,7 @@ a:hover {
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: center;
+  float: left;
   width: 33%;
   padding: 5px;
 }
@@ -92,6 +92,13 @@ a:hover {
   content: "";
   clear: both;
   display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 
 .scrolling-image-container {
