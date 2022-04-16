@@ -29,6 +29,7 @@ margin: 0px auto;
 margin-top: 30px;
 padding: 20px;
 background-color: #A6F5EF;
+opacity: 08;
 }
 
 .description-item {
@@ -49,6 +50,7 @@ background-color: #CE8888;
 margin-top: 30px;
 padding: 20px;
 background-color: #93D5EA;
+opacity: 1;
 }
 
 a:hover {
