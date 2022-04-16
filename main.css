@@ -97,3 +97,9 @@ a:hover {
 .scrolling-image-container {
   overflow: hidden;
 }
+
+.scrolling-image {
+  background: url("./background-image.jpg") repeat-x;
+  height: 750px;
+  width: 7680px;
+}
