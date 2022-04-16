@@ -31,6 +31,17 @@ padding: 40px;
 background-color: #F6DC55;
 }
 
+.container {
+  display: flex;
+}
+
+.item {
+  background: #CE8888;
+  flex-basis: 70px;
+  height: 50px;
+  margin: 20px;
+}
+
 a:hover {
   background-color: #F9E130;
   text-shadow: 3px 3px 6px #FFFEE9;
