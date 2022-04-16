@@ -31,6 +31,12 @@ padding: 20px;
 background-color: #F6DC55;
 }
 
+a:hover {
+  background-color: #F9E130;
+  text-shadow: 3px 3px 6px #FFFEE9;
+  font-size: 21px;
+}
+
 .container {
   display: flex;
 }
@@ -38,12 +44,6 @@ background-color: #F6DC55;
 .item {
   background: #E0C634;
   flex-basis: 70px;
-  height: 60px;
-  margin: 30px;
-}
-
-a:hover {
-  background-color: #F9E130;
-  text-shadow: 3px 3px 6px #FFFEE9;
-  font-size: 21px;
+  height: 50px;
+  margin: 20px;
 }
