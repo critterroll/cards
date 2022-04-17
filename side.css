@@ -1,18 +1,18 @@
 body {
   margin: 30px auto;
-  max-width: 1000px;
+  max-width: 1500px;
   font-family: "Trebuchet MS";
-  line-height: 1.5;
-  padding: 60px 40px;
+  line-height: 1.2;
+  padding: 30px 20px;
   text-align: center;
-  background-color: #F3EDEF;
   background-image: url("background.png");
   background-size: cover;
-  height: 100%
+  background-color: #3684D6;
+  height: 100% 
 }
 
 h1 {
-  padding: 60px 00px 40px 00px;
+  padding: 20px 0px 10px 0px;
 }
 
 a {
@@ -25,25 +25,83 @@ display: block;
 margin: 0px auto;
 }
 
+.index-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #A6F5EF;
+}
+
+.description-item {
+margin-top: 50px;
+padding: 40px;
+background-color: #A6F5EF;
+text-align: left;
+text-color: #19595C;
+}
+
+.tab-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #CE8888;
+}
+
+.divider-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #93D5EA;
+}
+
 .storymodules-item {
-margin-top: 40px;
-padding: 30px;
+margin-top: 30px;
+padding: 20px;
 background-color: #F6DC55;
 }
 
 a:hover {
-  background-color: #F9E130;
+  text-color: #C383E5;
   text-shadow: 3px 3px 6px #FFFEE9;
   font-size: 21px;
 }
-
+  
 .container {
   display: flex;
 }
 
 .item {
-  background: #E0C634;
+  background: #CE8888;
   flex-basis: 70px;
   height: 50px;
-  margin: 30px;
+  margin: 20px;
+}
+ 
+#image > img {
+  width: 428px;
+  height: 640px;
+       
+      }
+
+.card-item > img {
+    display: none;
+  
+      }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 2px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
