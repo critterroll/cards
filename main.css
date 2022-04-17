@@ -5,6 +5,10 @@ body {
   line-height: 1.2;
   padding: 30px 20px;
   text-align: center;
+  background-image: "background_alternate1.png";
+  background-size: cover;
+  background-color: #3684D6;
+  height: 100% 
 }
 
 h1 {
