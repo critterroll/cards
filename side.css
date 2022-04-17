@@ -3,7 +3,7 @@ body {
   max-width: 1000px;
   font-family: "Trebuchet MS";
   line-height: 1.5;
-  padding: 30px 20px;
+  padding: 60px 40px;
   text-align: center;
   background-color: #F3EDEF;
   background-image: url("background.png");
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  padding: 30px 10px 20px 10px;
+  padding: 60px 00px 40px 00px;
 }
 
 a {
@@ -26,8 +26,8 @@ margin: 0px auto;
 }
 
 .storymodules-item {
-margin-top: 30px;
-padding: 20px;
+margin-top: 40px;
+padding: 30px;
 background-color: #F6DC55;
 }
 
@@ -45,5 +45,5 @@ a:hover {
   background: #E0C634;
   flex-basis: 70px;
   height: 50px;
-  margin: 20px;
+  margin: 30px;
 }
