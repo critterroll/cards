@@ -1,11 +1,11 @@
 body {
   margin: 30px auto;
-  max-width: 1250;
+  max-width: 1250px;
   font-family: "Trebuchet MS";
   line-height: 1.2;
   padding: 30px 20px;
   text-align: center;
-  background-image: url("background_alternate3.JPG");
+  background-image: url(".."background_alternate3.JPG");
   background-size: cover;
   background-color: #3684D6;
   height: 100% 
