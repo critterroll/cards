@@ -85,10 +85,10 @@ a:hover {
   
       }
 
-/* Eight image containers (use 25% for four, and 50% for two, etc) */
+/* Four image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 15%;
+  width: 20%;
   padding: 2px;
 }
 
@@ -99,7 +99,7 @@ a:hover {
   display: table;
 }
 
-/* Responsive layout - makes the eight columns stack next to other instead of on top of each other */
+/* Responsive layout - makes the four columns stack next to other instead of on top of each other */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
