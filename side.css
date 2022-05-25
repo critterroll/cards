@@ -100,7 +100,7 @@ a:hover {
 }
 
 /* Responsive layout - makes the four columns stack next to other instead of on top of each other */
-@media screen and (max-width: 750) {
+@media screen and (max-width: 850) {
   .column {
     width: 100%;
   }
