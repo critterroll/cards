@@ -37,6 +37,7 @@
       <h1>Claim A Critter</h2>
         <h2>Click the Critter Roll logo to refresh and find a new critter. Some are rare.</h2>
       <div class="card-item">
+        <img id= "1" hidden src="062_Osi.png">
         <img id= "2" hidden src="001_Lawnbird.png">
         <img id= "3" hidden src="002_Petraq.png">
         <img id= "4" hidden src="003_Cats-n-masks.png">
@@ -97,14 +98,18 @@
         <img id= "59" hidden src="058_POP.png">
         <img id= "60" hidden src="059_Widonome.png">
         <img id= "61" hidden src="060_Pinatosaurus.png">
-        <img id= "62" hidden src="000_Narrator.png">
+        <img id= "62" hidden src="061_Osi.png">
+        <img id= "63" hidden src="063_Osi.png">
+        <img id= "64" hidden src="064_Osi.png">
+        <img id= "65" hidden src="065_Osi.png">
+        <img id= "66" hidden src="066_Osi.png">
       </div>
       <div id=image>
       <script>
         y= Math.floor(Math.random()*75)+1;
         console.log(y)
         if(y<51){  
-          G= Math.floor(Math.random()*20 )+2;
+          G= Math.floor(Math.random()*21 )+1;
           console.log(G)
           x= document.getElementById(G);
           x.removeAttribute("hidden");
@@ -116,7 +121,7 @@
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
       } else{
-          G= Math.floor(Math.random()*20 )+42;
+          G= Math.floor(Math.random()*26 )+42;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
