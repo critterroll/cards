@@ -46,7 +46,7 @@ a:hover {
 /* 7 image containers (use 10% for four, and 20% for two, etc) */
 .column {
   float: left;
-  width: 13.5%;
+  width: 13%;
   padding: 2px;
 }
 
