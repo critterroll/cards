@@ -47,6 +47,7 @@
       <script>
         y= Math.floor(Math.random()*15)+1;
         console.log(y)
+        if(y<16){  
           x= document.getElementById(G);
           x.removeAttribute("hidden");
           document.getElementById("image").appendChild(x);
