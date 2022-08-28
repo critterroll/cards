@@ -37,6 +37,10 @@ padding: 15px;
 background-color: #FBF3B3;
 }
 
+.card-item > img {
+    display: none;
+}
+
 a:hover {
   text-color: #C383E5;
   text-shadow: 2px 2px 6px #BCB0E7;
