@@ -24,6 +24,38 @@
         </div>
       </a>
     </div>
+  <div class="locationcards-item">
+    <h1>Find A Location</h2>
+    <div class="maps-item">
+        <h2>Refresh and find a new location.</h2>
+        <div class="card-item">
+          <img id= "1" hidden src="Beach.png">
+          <img id= "2" hidden src="Building.png">
+          <img id= "3" hidden src="Building-Extension.png">
+          <img id= "4" hidden src="Canyon.png">
+          <img id= "5" hidden src="Casino.png">
+          <img id= "6" hidden src="Desert.png">
+          <img id= "7" hidden src="Empty_Home.png">
+          <img id= "8" hidden src="Facility.png">
+          <img id= "9" hidden src="Field.png">
+          <img id= "10" hidden src="Garden.png">
+          <img id= "11" hidden src="Hospital.png">
+          <img id= "12" hidden src="Library.png">
+          <img id= "13" hidden src="Mountain.png">          
+          <img id= "14" hidden src="Townhouse.png">
+          <img id= "15" hidden src="Volcano.png">
+      </div>
+      <div id=image>
+      <script>
+        y= Math.floor(Math.random()*15)+1;
+        console.log(y)
+        if(y<16){  
+          G= Math.floor(Math.random()*15 )+1;
+          console.log(G)
+          x= document.getElementById(G);
+          x.removeAttribute("hidden");
+          document.getElementById("image").appendChild(x);
+  </div>  
   <div class="locationcards-item"> 
     <div class="maps-item">
       <h1><b>Digital Map Template</b></h1>
@@ -104,9 +136,5 @@
         </div>
       </div> 
    </div>
-    <div class="locationcards-item">
-      <h2>Seems like there's no Location Cards right now. Check back soon when they arrive!<h2>
-      <img src="hobravin1.PNG" height="287" width="215" alt="Hobravin">
-    </div>
   </body>
 </html>
