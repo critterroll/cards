@@ -37,6 +37,22 @@ padding: 15px;
 background-color: #FBF3B3;
 }
 
+
+.container {
+  display: flex;
+}
+
+.item {
+  background: #CE8888;
+  flex-basis: 70px;
+  height: 50px;
+  margin: 20px;
+}
+ 
+#image > img {
+  width: 428px;
+  height: 640px;
+       
 .card-item > img {
     display: none;
 }
