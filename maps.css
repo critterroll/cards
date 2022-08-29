@@ -48,14 +48,7 @@ background-color: #FBF3B3;
   height: 50px;
   margin: 20px;
 }
- 
-#image > img {
-  width: 428px;
-  height: 640px;
-       
-.card-item > img {
-    display: none;
-}
+
 
 a:hover {
   text-color: #C383E5;
