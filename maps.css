@@ -37,19 +37,6 @@ padding: 15px;
 background-color: #FBF3B3;
 }
 
-
-.container {
-  display: flex;
-}
-
-.item {
-  background: #CE8888;
-  flex-basis: 70px;
-  height: 50px;
-  margin: 20px;
-}
-
-
 a:hover {
   text-color: #C383E5;
   text-shadow: 2px 2px 6px #BCB0E7;
