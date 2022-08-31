@@ -116,12 +116,15 @@
         <img id= "77" hidden src="078_Closemon.png">
         <img id= "78" hidden src="090_Insecktoid.png">  
         <img id= "79" hidden src="079_Insecktoid.png">
-        <img id= "80" hidden src="073_Chiplin.png">
-        <img id= "80" hidden src="068_Cats-n-masks.png">
+        <img id= "80" hidden src="091_Gelsen.png">
+        <img id= "81" hidden src="082_Gelsen.png">
+        <img id= "82" hidden src="068_Cats-n-masks.png">
+        <img id= "83" hidden src="073_Chiplin.png">
+        <img id= "84" hidden src="080_Mineytaur.png">  
       </div>
       <div id=image>
       <script>
-        y= Math.floor(Math.random()*80)+1;
+        y= Math.floor(Math.random()*84)+1;
         console.log(y)
         if(y<40){  
           G= Math.floor(Math.random()*21 )+1;
@@ -136,7 +139,7 @@
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
       } else{
-          G= Math.floor(Math.random()*39 )+42;
+          G= Math.floor(Math.random()*43 )+42;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
