@@ -31,11 +31,16 @@ padding: 35px;
 background-color: #7190D6;
 }
 
-.maps-item {
-margin-top: 25px;
-padding: 15px;
-background-color: #FBF3B3;
-}
+#image > img {
+  width: 640px;
+  height: 428px;
+       
+      }
+
+.card-item > img {
+    display: none;
+  
+      }
 
 a:hover {
   text-color: #C383E5;
