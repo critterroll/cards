@@ -105,3 +105,24 @@ a:hover {
     width: 100%;
   }
 }
+
+/* 7 image containers (use 10% for four, and 20% for two, etc) */
+.column1 {
+  float: left;
+  width: 13.5%;
+  padding: 2px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the seven columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 250px) {
+  .column1 {
+    width: 100%;
+  }
+}
