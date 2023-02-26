@@ -31,11 +31,17 @@ padding: 35px;
 background-color: #7190D6;
 }
 
-.card-item > img {
-    display: none;
-  
-      }
+.container {
+  display: flex;
+}
 
+.item {
+  background: #CE8888;
+  flex-basis: 70px;
+  height: 50px;
+  margin: 20px;
+}
+ 
 #image > img {
   width: 640px;
   height: 428px;
