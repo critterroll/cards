@@ -60,19 +60,26 @@
       <script>
         y= Math.floor(Math.random()*50)+1;
         console.log(y)
-        if(y<49){  
-          G= Math.floor(Math.random()*21 )+1;
+        if(y<39){  
+          G= Math.floor(Math.random()*19 )+1;
           console.log(G)
           x= document.getElementById(G);
           x.removeAttribute("hidden");
           document.getElementById("image").appendChild(x);
+         } else if(y<49){
+          G= Math.floor(Math.random()*5 )+20;
+          console.log(G)
+            x= document.getElementById(G);
+            x.removeAttribute("hidden");
+            document.getElementById("image").appendChild(x);
          } else{
-          G= Math.floor(Math.random()*2 )+24;
+          G= Math.floor(Math.random()*2 )+25;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
       </script>        
+      </div>
     </div>
   </div>
   <div class="locationcards-item"> 
