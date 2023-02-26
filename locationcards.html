@@ -8,7 +8,7 @@
   <body>
     <div class="locationcards-item"> 
       <img src="IMG_7374.png" height="250" width="358"></a>
-      <a href="index.html">
+      <a href="locationcards.html">
         <div class="maps-item">
            <h3><b>Back to the Critter Card Hub<b></h3>
         </div>
@@ -26,35 +26,55 @@
     </div>
   <div class="locationcards-item">
     <h1>Location Cards</h2>
-        <div class="maps-item">
-          <img src="Beach.png" style="width:70%">
-          <img src="Building-Extension.png" style="width:70%">
-          <img src="Building.png" style="width:70%">
-          <img src="Canyon.png" style="width:70%">
-          <img src="Carnival.png" style="width:70%">
-          <img src="Casino.png" style="width:70%">
-          <img src="Desert.png" style="width:70%">
-          <img src="Facility.png" style="width:70%">
-          <img src="Factory.png" style="width:70%">
-          <img src="Forest.png" style="width:70%">
-          <img src="Jail.png" style="width:70%">
-          <img src="Library.png" style="width:70%">
-          <img src="Mountain.png" style="width:70%">
-          <img src="Restaurant_Stop.png" style="width:70%">
-          <img src="Starship.png" style="width:70%">      
-          <img src="Theater.png" style="width:70%">        
-          <img src="Toy_Shop.png" style="width:70%">        
-          <img src="Volcano.png" style="width:70%">
-          <img src="Corridor.png" style="width:70%">        
-          <img src="Empty_Home.png" style="width:70%">
-          <img src="Field.png" style="width:70%">
-          <img src="Garden.png" style="width:70%">
-          <img src="Hospital.png" style="width:70%">
-          <img src="Townhouse.png" style="width:70%">
-          <img src="Village.png" style="width:70%">
-          <img src="MAKE-YOUR-OWN.png" style="width:70%">
+    <h2>Click the Critter Roll logo to refresh and find a new Location Card.</h2>
+      <div class="maps-item">
+      <div class="card-item">
+        <img id= "1" hidden src="Beach.png" style="width:70%">
+        <img id= "2" hidden src="Building-Extension.png" style="width:70%">
+        <img id= "3" hidden src="Building.png" style="width:70%">
+        <img id= "4" hidden src="Canyon.png" style="width:70%">
+        <img id= "5" hidden src="Jail.png" style="width:70%">
+        <img id= "6" hidden src="Library.png" style="width:70%">
+        <img id= "7" hidden src="Mountain.png" style="width:70%">
+        <img id= "8" hidden src="Restaurant_Stop.png" style="width:70%">
+        <img id= "9" hidden src="Starship.png" style="width:70%">
+        <img id= "10" hidden src="Theater.png" style="width:70%">
+        <img id= "11" hidden src="Toy_Shop.png" style="width:70%">
+        <img id= "12" hidden src="Volcano.png" style="width:70%">
+        <img id= "13" hidden src="Factory.png" style="width:70%">
+        <img id= "14" hidden src="Forest.png" style="width:70%">
+        <img id= "15" hidden src="Carnival.png" style="width:70%">
+        <img id= "16" hidden src="Casino.png" style="width:70%">
+        <img id= "17" hidden src="Desert.png" style="width:70%">
+        <img id= "18" hidden src="MAKE-YOUR-OWN.png" style="width:70%">
+        <img id= "19" hidden src="Facility.png" style="width:70%">
+        <img id= "20" hidden src="Field.png" style="width:70%">
+        <img id= "21" hidden src="Empty_Home.png" style="width:70%">
+        <img id= "22" hidden src="Garden.png" style="width:70%">
+        <img id= "23" hidden src="Hospital.png" style="width:70%">
+        <img id= "24" hidden src="Townhouse.png" style="width:70%">
+        <img id= "25" hidden src="Village.png" style="width:70%">
+        <img id= "26" hidden src="Corridor.png" style="width:70%">
       </div>  
+      <div id=image>
+      <script>
+        y= Math.floor(Math.random()*50)+1;
+        console.log(y)
+        if(y<49){  
+          G= Math.floor(Math.random()*21 )+1;
+          console.log(G)
+          x= document.getElementById(G);
+          x.removeAttribute("hidden");
+          document.getElementById("image").appendChild(x);
+         } else{
+          G= Math.floor(Math.random()*2 )+24;
+          console.log(G)
+            x= document.getElementById(G);
+            x.removeAttribute("hidden");
+            document.getElementById("image").appendChild(x);
+      </script>        
     </div>
+  </div>
   <div class="locationcards-item"> 
     <div class="maps-item">
       <h1><b>Digital Map Template</b></h1>
