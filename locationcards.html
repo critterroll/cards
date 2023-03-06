@@ -56,25 +56,37 @@
         <img id= "25" hidden src="Village.png" style="width:70%">
         <img id= "26" hidden src="Corridor.png" style="width:70%">
         <img id= "27" hidden src="Chessboard.png" style="width:70%">
+        <img id= "28" hidden src="LocationWilderness.png" style="width:70%">
+        <img id= "29" hidden src="LocationGraveyard.png" style="width:70%">
+        <img id= "30" hidden src="LocationHallway.png" style="width:70%">
+        <img id= "31" hidden src="LocationIsland.png" style="width:70%">
+        <img id= "32" hidden src="LocationJungle.png" style="width:70%">
+        <img id= "33" hidden src="LocationLake.png" style="width:70%">
+        <img id= "34" hidden src="LocationMine.png" style="width:70%">
+        <img id= "35" hidden src="LocationPalace.png" style="width:70%">
+        <img id= "36" hidden src="LocationPumpkinPatch.png" style="width:70%">
+        <img id= "37" hidden src="LocationRiver.png" style="width:70%">
+        <img id= "38" hidden src="LocationShip.png" style="width:70%">
+        <img id= "39" hidden src="LocationTemple.png" style="width:70%">
       </div>  
       <div id=image>
       <script>
         y= Math.floor(Math.random()*50)+1;
         console.log(y)
-        if(y<39){  
+        if(y<30){  
           G= Math.floor(Math.random()*19 )+1;
           console.log(G)
           x= document.getElementById(G);
           x.removeAttribute("hidden");
           document.getElementById("image").appendChild(x);
-         } else if(y<49){
+         } else if(y<40){
           G= Math.floor(Math.random()*5 )+20;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
          } else{
-          G= Math.floor(Math.random()*2 )+25;
+          G= Math.floor(Math.random()*2 )+27;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
