@@ -68,13 +68,14 @@
         <img id= "37" hidden src="LocationRiver.png" style="width:70%">
         <img id= "38" hidden src="LocationShip.png" style="width:70%">
         <img id= "39" hidden src="LocationTemple.png" style="width:70%">
+        <img id= "40" hidden src="LocationTemple.png" style="width:70%">
       </div>  
       <div id=image>
       <script>
         y= Math.floor(Math.random()*50)+1;
         console.log(y)
         if(y<30){  
-          G= Math.floor(Math.random()*19 )+1;
+          G= Math.floor(Math.random()*18 )+1;
           console.log(G)
           x= document.getElementById(G);
           x.removeAttribute("hidden");
@@ -86,7 +87,7 @@
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
          } else{
-          G= Math.floor(Math.random()*12 )+27;
+          G= Math.floor(Math.random()*14 )+27;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
