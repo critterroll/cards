@@ -112,12 +112,12 @@
         <img id= "73" hidden src="086_Osi.png">
         <img id= "74" hidden src="087_Osi.png">
         <img id= "75" hidden src="088_Tr'elf.png">
-        <img id= "76" hidden src="089_Closemon.png">
-        <img id= "77" hidden src="078_Closemon.png">
-        <img id= "78" hidden src="090_Insecktoid.png">  
-        <img id= "79" hidden src="079_Insecktoid.png">
+        <img id= "76" hidden src="079_Insecktoid.png">
+        <img id= "77" hidden src="082_Gelsen.png">
+        <img id= "78" hidden src="078_Closemon.png">
+        <img id= "79" hidden src="090_Insecktoid.png">  
         <img id= "80" hidden src="091_Gelsen.png">
-        <img id= "81" hidden src="082_Gelsen.png">
+        <img id= "81" hidden src="089_Closemon.png">
         <img id= "82" hidden src="068_Cats-n-masks.png">
         <img id= "83" hidden src="073_Chiplin.png">
         <img id= "84" hidden src="080_Mineytaur.png">
@@ -155,25 +155,26 @@
         <img id= "116" hidden src="115_Gelsen.png">  
         <img id= "117" hidden src="116_POP.png">        
         <img id= "118" hidden src="119_Lawnbird.png">    
+        <img id= "119" hidden src="118_Cats-n-masks.png">    
       </div>
       <div id=image>
       <script>
         y= Math.floor(Math.random()*75)+1;
         console.log(y)
-        if(y<39){  
-          G= Math.floor(Math.random()*23 )+1;
+        if(y<43){  
+          G= Math.floor(Math.random()*41 )+1;
           console.log(G)
           x= document.getElementById(G);
           x.removeAttribute("hidden");
           document.getElementById("image").appendChild(x);
       } else if(y<67){
-          G= Math.floor(Math.random()*42 )+22;
+          G= Math.floor(Math.random()*37 )+42;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
       } else{
-          G= Math.floor(Math.random()*52 )+67;
+          G= Math.floor(Math.random()*40 )+79;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
