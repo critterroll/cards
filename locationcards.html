@@ -69,6 +69,7 @@
         <img id= "38" hidden src="LocationShip.png" style="width:70%">
         <img id= "39" hidden src="LocationTemple.png" style="width:70%">
         <img id= "40" hidden src="LocationTemple.png" style="width:70%">
+        <img id= "41" hidden src="LocationConstructionSite.png" style="width:70%">
       </div>  
       <div id=image>
       <script>
@@ -87,7 +88,7 @@
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
          } else{
-          G= Math.floor(Math.random()*14 )+27;
+          G= Math.floor(Math.random()*15 )+27;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
