@@ -121,7 +121,7 @@ background-color: #F6DC55;
   display: table;
 }
 
-/* Responsive layout - makes the seven columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the 2 columns stack next to each other instead of on top of each other */
 @media screen and (max-width: 250px) {
   .column1 {
     width: 100%;
