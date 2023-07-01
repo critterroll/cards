@@ -107,10 +107,10 @@ background-color: #F6DC55;
   }
 }
 
-/* 7 image containers (use 10% for four, and 20% for two, etc) */
+/* 2 image containers (use 50% for four, and 100% for two, etc) */
 .column1 {
   float: left;
-  width: 13.5%;
+  width: 15.5%;
   padding: 2px;
 }
 
