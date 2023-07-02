@@ -24,6 +24,12 @@ color: #36709D;
 text-decoration: none;
 }
 
+a:hover {
+  text-color: #C383E5;
+  text-shadow: 3px 3px 6px #FFFEE9;
+  font-size: 21px;
+}
+
 img {
 display: block;
 margin: 0px auto;
