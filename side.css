@@ -114,8 +114,8 @@ background-color: #F6DC55;
 /* 2 image containers (use 50% for four, and 100% for two, etc) */
 .column1 {
   float: left;
-  width: 15.5%;
-  padding: 2px;
+  width: 20%;
+  padding: 10px;
 }
 
 /* Clear floats after image containers */
