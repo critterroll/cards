@@ -170,25 +170,29 @@
         <img id= "130" hidden src="128_Trash-Dragon.png">
         <img id= "131" hidden src="129_Mineytaur.png">
         <img id= "132" hidden src="130_Widonome.png">
+        <img id= "133" hidden src="127_Chewbunny_alternate.png">
+        <img id= "134" hidden src="128_Trash-Drago_alternaten.png">
+        <img id= "135" hidden src="129_Mineytaur_alternate.png">
+        <img id= "136" hidden src="130_Widonome_alternate.png">
       </div>
       <div id=image>
       <script>
         y= Math.floor(Math.random()*75)+1;
         console.log(y)
-        if(y<40){  
+        if(y<39){  
           G= Math.floor(Math.random()*41 )+1;
           console.log(G)
           x= document.getElementById(G);
           x.removeAttribute("hidden");
           document.getElementById("image").appendChild(x);
-        } else if(y<60){
+        } else if(y<59){
           G= Math.floor(Math.random()*40 )+42;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
         } else{
-          G= Math.floor(Math.random()*51 )+82;
+          G= Math.floor(Math.random()*55 )+82;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
