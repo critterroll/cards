@@ -181,6 +181,9 @@
         <img id= "141" hidden src="Item_Power-Up_Pink.png">
         <img id= "142" hidden src="Item_Power-Up_Purple.png">
         <img id= "143" hidden src="Item_Treasure.png">
+        <img id= "144" hidden src="131_Supergrowl.png">
+        <img id= "145" hidden src="132_Insecktoid.png">
+        <img id= "146" hidden src="133_Chiplin.png">
       </div>
       <div id=image>
       <script>
@@ -192,14 +195,14 @@
           x= document.getElementById(G);
           x.removeAttribute("hidden");
           document.getElementById("image").appendChild(x);
-        } else if(y<55){
-          G= Math.floor(Math.random()*40 )+42;
+        } else if(y<57){
+          G= Math.floor(Math.random()*51 )+42;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
         } else{
-          G= Math.floor(Math.random()*62 )+82;
+          G= Math.floor(Math.random()*53 )+93;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
