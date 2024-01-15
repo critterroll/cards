@@ -70,25 +70,26 @@
         <img id= "39" hidden src="LocationTemple.png" style="width:70%">
         <img id= "40" hidden src="LocationTemple.png" style="width:70%">
         <img id= "41" hidden src="LocationConstruction.png" style="width:70%">
+        <img id= "42" hidden src="LocationPlayground.png" style="width:70%">
       </div>  
       <div id=image>
       <script>
         y= Math.floor(Math.random()*50)+1;
         console.log(y)
         if(y<30){  
-          G= Math.floor(Math.random()*18 )+1;
+          G= Math.floor(Math.random()*16 )+1;
           console.log(G)
           x= document.getElementById(G);
           x.removeAttribute("hidden");
           document.getElementById("image").appendChild(x);
          } else if(y<40){
-          G= Math.floor(Math.random()*8 )+20;
+          G= Math.floor(Math.random()*10 )+17;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
             document.getElementById("image").appendChild(x);
          } else{
-          G= Math.floor(Math.random()*15 )+27;
+          G= Math.floor(Math.random()*16 )+27;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
