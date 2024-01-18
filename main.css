@@ -85,29 +85,6 @@ a:hover {
   
       }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 31%;
-  padding: 2px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 720px) {
-  .column {
-    width: 100%;
-  }
-}
-
-* {box-sizing:border-box}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -124,9 +101,9 @@ a:hover {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 100%;
   width: auto;
-  margin-top: -22px;
+  margin-top: 0px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -146,6 +123,16 @@ a:hover {
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 
 /* Number text (1/12 etc) */
 .numbertext {
