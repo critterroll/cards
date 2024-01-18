@@ -115,10 +115,17 @@ a:hover {
   user-select: none;
 }
 
-/* Position the "next button" to the center */
+/* Position the "next button" to the right */
 .next {
-  float: center;
+  float: right;
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+  
+/* Position the "prev button" to the left */
+.prev {
+  float: left;
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
