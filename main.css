@@ -115,8 +115,9 @@ a:hover {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Position the "next button" to the center */
 .next {
+  float: center;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
