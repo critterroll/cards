@@ -103,10 +103,10 @@ a:hover {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 36%;
+  top: 39%;
   width: auto;
   margin-top: 2px;
-  padding: 108px;
+  padding: 72px;
   color: white;
   font-weight: bold;
   font-size: 50px;
