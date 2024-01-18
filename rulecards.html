@@ -7,7 +7,7 @@
       <link rel="stylesheet" type="text/css" href="main.css">
       <style>
         * {box-sizing: border-box}
-        .mySlides1, .mySlides2 {display: none}
+        .mySlides {display: none}
         img {vertical-align: middle;}
         
         /* Slideshow container */
@@ -83,6 +83,8 @@
        <h4> This is a game about storytelling where imagination, fairness, fun, and respect are the cornerstones of good role-play. You are making your own characters through these critters, and they deserve the story you want them to be in.</h4>
       </div>
       <h3></h3>
+
+        
       <div class="slideshow-container">
           <div class="mySlides fade">
           <div class="numbertext">1 / 12</div>
@@ -161,6 +163,7 @@
         <span class="dot" onclick="currentSlide(10)"></span>
         <span class="dot" onclick="currentSlide(11)"></span>
         <span class="dot" onclick="currentSlide(12)"></span>
+      </div>
   <script>
     let slideIndex = 1;
     showSlides(slideIndex);
@@ -189,8 +192,7 @@
       }
       slides[slideIndex-1].style.display = "block";
       dots[slideIndex-1].className += " active";
-  }
+      }
   </script>
-      </div>
   </body>
 </html>
