@@ -101,9 +101,9 @@ a:hover {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 100%;
   width: auto;
-  margin-top: 22px;
+  margin-top: 10px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -116,7 +116,7 @@ a:hover {
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 6px 0 0 0 6px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
