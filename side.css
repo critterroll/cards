@@ -9,7 +9,7 @@ body {
   background-image: url("background1.png");
   background-repeat: repeat;
   background-position: top center;
-  background-attachment: fixed;
+  background-attachment: fixed-y;
   background-color: #38a896;
   width: 100%;
 
