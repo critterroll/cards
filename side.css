@@ -6,6 +6,8 @@ body {
   padding: 30px 20px;
   text-align: left;
   background-image: url("background1.png");
+  background-repeat: repeat;
+  background-attachment: scroll;
   background-size: cover;
   background-color: #38a896;
   height: 100% 
