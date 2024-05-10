@@ -5,13 +5,12 @@ body {
   line-height: 1.2;
   padding: 30px 20px;
   text-align: left;
-  
   background-image: url("background1.png");
   background-repeat: repeat;
   background-position: top center;
   background-attachment: fixed-y;
   background-color: #38a896;
-  width: 100%;
+  height: 100%;
 
 h1 {
   padding: 20px 0px 10px 0px;
@@ -57,7 +56,6 @@ background-color: #dd8fa9;
 margin-top: 30px;
 padding: 20px;
 background-color: #e1a3b8;
-border: 2px solid black
 border-width:2px;
 border-style:solid;
 border-color: #cd6691;
