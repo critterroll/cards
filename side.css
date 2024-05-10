@@ -5,15 +5,13 @@ body {
   line-height: 1.2;
   padding: 30px 20px;
   text-align: left;
-
-#bigwrapper {
+  
   background-image: url("background1.png");
   background-repeat: repeat;
   background-position: top center;
   background-attachment: fixed;
   background-color: #38a896;
   width: 100%;
-}
 
 h1 {
   padding: 20px 0px 10px 0px;
