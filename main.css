@@ -29,6 +29,9 @@ margin: 0px auto;
 margin-top: 30px;
 padding: 20px;
 background-color: #A6F5EF;
+border-width:3px;
+border-style:solid;
+border-color: #33879f;
 }
 
 .description-item {
