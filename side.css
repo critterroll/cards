@@ -53,13 +53,19 @@ padding: 20px;
 background-color: #dd8fa9;
 }
 
+.Items-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #e6c345
+}
+
 .storymodules-item {
 margin-top: 30px;
 padding: 20px;
-background-color: #e1a3b8;
+background-color: #dd8f50;
 border-width:2px;
 border-style:solid;
-border-color: #cd6691;
+border-color: #df7c3c;
 }
 
 a:hover {
