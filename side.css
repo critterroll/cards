@@ -51,13 +51,13 @@ background-color: #CE8888;
 margin-top: 30px;
 padding: 20px;
 background-color: #e4b31b;
+border-radius: 20px;
 }
 
 .Items-item {
 margin-top: 30px;
 padding: 20px;
 background-color: #e6c345
-border-radius: 10px;
 }
 
 .storymodules-item {
