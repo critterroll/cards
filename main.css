@@ -29,6 +29,7 @@ margin: 0px auto;
 margin-top: 30px;
 padding: 20px;
 background-color: #A6F5EF;
+border-radius: 5px;
 }
 
 .description-item {
@@ -37,24 +38,28 @@ padding: 40px;
 background-color: #A6F5EF;
 text-align: left;
 text-color: #19595C;
+border-radius: 5px;
 }
 
 .tab-item {
 margin-top: 30px;
 padding: 20px;
 background-color: #CE8888;
+border-radius: 5px;
 }
 
 .divider-item {
 margin-top: 30px;
 padding: 20px;
 background-color: #93D5EA;
+border-radius: 5px;
 }
 
 .storymodules-item {
 margin-top: 30px;
 padding: 20px;
 background-color: #F6DC55;
+border-radius: 5px;
 }
 
 a:hover {
