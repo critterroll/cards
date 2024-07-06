@@ -194,13 +194,13 @@
         y= Math.floor(Math.random()*75)+1;
         console.log(y)
         if(y<20){  
-          G= Math.floor(Math.random()*64 )+1;
+          G= Math.floor(Math.random()*63 )+1;
           console.log(G)
           x= document.getElementById(G);
           x.removeAttribute("hidden");
           document.getElementById("image").appendChild(x);
-        } else if(y<5){
-          G= Math.floor(Math.random()*28 )+65;
+        } else if(y<30){
+          G= Math.floor(Math.random()*29 )+64;
           console.log(G)
             x= document.getElementById(G);
             x.removeAttribute("hidden");
