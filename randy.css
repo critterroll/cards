@@ -1,0 +1,191 @@
+body {
+  margin: 10px auto;
+  max-width: 1500px;
+  font-family: "Calibri";
+  line-height: 1.25;
+  padding: 30px 20px;
+  text-align: center;
+  background-image: url("background_alternate4.png");
+  background-size: cover;
+  background-color: #7458FA;
+  height: 100% 
+}
+
+h1 {
+  padding: 20px 0px 10px 0px;
+}
+
+a {
+color: #FAE650;
+text-decoration: none;
+}
+
+body {
+  color: #F8E6FA;
+}
+
+img {
+display: block;
+margin: 0px auto;
+}
+
+.index-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #A6F5EF;
+border-radius: 5px;
+}
+
+.description-item {
+margin-top: 50px;
+padding: 40px;
+background-color: #A6F5EF;
+text-align: left;
+text-color: #19595C;
+border-radius: 5px;
+}
+
+.tab-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #CE8888;
+border-radius: 5px;
+}
+
+.divider-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #93D5EA;
+border-radius: 5px;
+}
+
+.storymodules-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #F6DC55;
+border-radius: 5px;
+}
+
+a:hover {
+  text-color: #F8E6FA;
+  text-shadow: 2px 2px 6px #F4EFDB;
+  font-size: 21px;
+}
+  
+.container {
+  display: flex;
+}
+
+.item {
+  background: #CE8888;
+  flex-basis: 70px;
+  height: 50px;
+  margin: 20px;
+}
+ 
+#image > img {
+  width: 428px;
+  height: 640px;
+       
+      }
+
+.card-item > img {
+    display: none;
+  
+      }
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 39%;
+  width: auto;
+  margin-top: 2px;
+  padding: 72px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  float: right;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+  
+/* Position the "prev button" to the left */
+.prev {
+  float: left;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
