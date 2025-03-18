@@ -87,12 +87,10 @@ a:hover {
       }
 
 .menu-item {
-margin-top: 60px;
-padding: 35px;
-background-color: #6537BD;
-border-width:3px;
-border-style:solid;
-border-radius: 5px;
+margin-top: 20px;
+padding: 15px;
+background-color: #7458FA;
+border-radius: 15px 45px;
 }
 
 * {box-sizing:border-box}
