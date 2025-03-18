@@ -189,3 +189,24 @@ width: 50%;
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Four image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 24%;
+  padding: 2px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the four columns stack next to other instead of on top of each other */
+@media screen and (max-width: 1200) {
+  .column {
+    width: 100%;
+  }
+}
