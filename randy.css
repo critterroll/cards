@@ -48,14 +48,14 @@ border-radius: 5px;
 .tab-item {
 margin-top: 30px;
 padding: 20px;
-background-color: #CE8888;
+background-color: #7458FA;
 border-radius: 5px;
 }
 
 .divider-item {
 margin-top: 30px;
 padding: 20px;
-background-color: #93D5EA;
+background-color: #7458FA;
 border-radius: 5px;
 }
 
@@ -70,7 +70,7 @@ a:hover {
 }
 
 .item {
-  background: #CE8888;
+  background: #7458FA;
   flex-basis: 70px;
   height: 50px;
   margin: 20px;
