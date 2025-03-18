@@ -83,7 +83,6 @@ a:hover {
 
 .card-item > img {
     display: none;
-  
       }
 
 .menu-item {
@@ -91,6 +90,8 @@ margin-top: 20px;
 padding: 15px;
 background-color: #7458FA;
 border-radius: 15px 45px;
+height: 100px;
+width: 50%;
 }
 
 * {box-sizing:border-box}
