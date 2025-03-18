@@ -79,7 +79,6 @@ a:hover {
 #image > img {
   width: 428px;
   height: 640px;
-       
       }
 
 .card-item > img {
@@ -132,7 +131,7 @@ border-radius: 5px;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-  
+
 /* Position the "prev button" to the left */
 .prev {
   float: left;
