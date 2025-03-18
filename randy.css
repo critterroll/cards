@@ -7,7 +7,7 @@ body {
   text-align: center;
   background-image: url("background_alternate4.png");
   background-size: cover;
-  background-color: #7458FA;
+  background-color: #CC606B;
   height: 100% 
 }
 
@@ -29,11 +29,11 @@ display: block;
 margin: 0px auto;
 }
 
-.index-item {
+.randyrejects-item {
 margin-top: 30px;
 padding: 20px;
-background-color: #A6F5EF;
-border-radius: 5px;
+background-color: #7458FA;
+border-radius: 10px 50px;
 }
 
 .description-item {
@@ -56,13 +56,6 @@ border-radius: 5px;
 margin-top: 30px;
 padding: 20px;
 background-color: #93D5EA;
-border-radius: 5px;
-}
-
-.storymodules-item {
-margin-top: 30px;
-padding: 20px;
-background-color: #F6DC55;
 border-radius: 5px;
 }
 
@@ -93,6 +86,16 @@ a:hover {
     display: none;
   
       }
+
+.menu-item {
+margin-top: 60px;
+padding: 35px;
+background-color: #7458FA;
+border-width:3px;
+border-style:solid;
+border-color: #1891a8;
+border-radius: 5px;
+}
 
 * {box-sizing:border-box}
 
