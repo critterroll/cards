@@ -55,7 +55,7 @@ border-radius: 5px;
 .divider-item {
 margin-top: 30px;
 padding: 20px;
-background-color: #7458FA;
+background-color: #6537BD;
 border-radius: 5px;
 }
 
@@ -70,7 +70,7 @@ a:hover {
 }
 
 .item {
-  background: #7458FA;
+  background: #6537BD;
   flex-basis: 70px;
   height: 50px;
   margin: 20px;
@@ -90,10 +90,9 @@ a:hover {
 .menu-item {
 margin-top: 60px;
 padding: 35px;
-background-color: #7458FA;
+background-color: #6537BD;
 border-width:3px;
 border-style:solid;
-border-color: #1891a8;
 border-radius: 5px;
 }
 
