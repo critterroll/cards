@@ -63,8 +63,17 @@ a:hover {
   text-color: #F8E6FA;
   text-shadow: 2px 2px 6px #F4EFDB;
   font-size: 21px;
+  transition: filter 0.3s ease; 
 }
-  
+
+.highlight-bright {
+  width: 100%;
+  max-width: 100px;
+  transition: filter 0.2s ease; 
+}
+
+.highlight-bright:hover {
+  filter: brightness(1.2);
 .container {
   display: flex;
 }
