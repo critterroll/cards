@@ -48,14 +48,12 @@ border-radius: 5px;
  
 #image > img {
   width: 640px;
-  height: 428px;
-       
-      }
+  height: 428px;       
+}
 
 .card-item > img {
     display: none;
-  
-      }
+}
 
 a:hover {
   text-color: #C383E5;
@@ -72,3 +70,4 @@ a:hover {
 
 .highlight-bright:hover {
   filter: brightness(1.2);
+}
