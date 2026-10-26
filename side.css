@@ -70,10 +70,10 @@ border-radius: 5px;
 .storymodules-item {
 margin-top: 30px;
 padding: 20px;
-background-color: rgba(245, 167, 88, 0.8);
-border-width:2px;
+background-color:rgba(245, 167, 88, 0.8);
+border-width:8px;
 border-style:solid;
-border-color: #df7c3c;
+border-color: rgba(254, 207, 103, 0.5);
 border-radius: 15px;
 }
 
