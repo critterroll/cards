@@ -18,7 +18,7 @@ h1 {
 a {
 color: #36709D;
 text-decoration: none;
-transition: all 0.3s ease-in-out; 
+transition: all 0.2s ease-in-out; 
 }
 
 img {
@@ -66,7 +66,7 @@ border-radius: 5px;
 a:hover {
   text-color: #C383E5;
   text-shadow: 3px 3px 6px #FFFEE9;
-  font-size: 21px;
+  font-size: 18px;
   transition: filter 0.3s ease; 
 }
 
