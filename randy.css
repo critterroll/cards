@@ -18,6 +18,8 @@ h1 {
 a {
 color: #FAE650;
 text-decoration: none;
+transition: all 0.5s ease-in-out; 
+
 }
 
 body {
@@ -69,7 +71,6 @@ a:hover {
 .highlight-bright {
   width: 100%;
   max-width: 100px;
-  transition: filter 0.2s ease; 
 }
 
 .highlight-bright:hover {
