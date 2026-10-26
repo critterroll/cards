@@ -13,6 +13,15 @@ body {
 
 h1 {
   padding: 20px 0px 10px 0px;
+  color: #0b4a62;
+}
+
+h3 {
+  color: #0f516a;
+}
+
+h4 {
+  color: #375e6d;
 }
 
 a {
