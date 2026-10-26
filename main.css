@@ -40,6 +40,9 @@ margin-top: 30px;
 padding: 20px;
 background-color: #A6F5EF;
 border-radius: 5px;
+background-color: #A6F5EF;
+text-align: left;
+text-color: #19595C;
 }
 
 .description-item {
@@ -52,8 +55,8 @@ border-radius: 5px;
 }
 
 .tab-item {
-margin-top: 30px;
-padding: 20px;
+margin-top: 20px;
+padding: 10px;
 background-color: #CE8888;
 border-radius: 5px;
 }
@@ -80,7 +83,7 @@ a:hover {
 
 .highlight-bright {
   width: 100%;
-  max-width: 100px;
+  max-width: 92px;
   transition: filter 0.2s ease; 
 }
 
