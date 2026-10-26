@@ -66,8 +66,19 @@ a:hover {
   text-color: #C383E5;
   text-shadow: 3px 3px 6px #FFFEE9;
   font-size: 21px;
+  transition: filter 0.3s ease; 
 }
-  
+
+.highlight-bright {
+  width: 100%;
+  max-width: 100px;
+  transition: filter 0.2s ease; 
+}
+
+.highlight-bright:hover {
+  filter: brightness(1.2);
+}
+
 .container {
   display: flex;
 }
@@ -87,17 +98,6 @@ a:hover {
 .card-item > img {
     display: none;
       }
-
-.highlight-bright {
-  width: 100%;
-  max-width: 100px;
-  transition: filter 0.2s ease, box-shadow 0.3s ease; 
-}
-
-.highlight-bright:hover {
-  filter: brightness(1.2);
-  box-shadow: 0 10px 15px rgba(0, 123, 255, 0.5);
-}
 
 * {box-sizing:border-box}
 
