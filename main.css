@@ -91,11 +91,12 @@ a:hover {
 .highlight-bright {
   width: 100%;
   max-width: 400px;
-  transition: filter 0.2s ease; 
+  transition: filter 0.2s ease, box-shadow 0.3s ease; 
 }
 
 .highlight-bright:hover {
-  filter: brightness(1.2); 
+  filter: brightness(1.2);
+  box-shadow: 0 10px 15px rgba(0, 123, 255, 0.5);
 }
 
 * {box-sizing:border-box}
