@@ -64,7 +64,7 @@ a:hover {
 
 .highlight-bright {
   width: 100%;
-  max-width: 100px;
+  max-width: 120px;
   transition: filter 0.2s ease; 
 }
 
