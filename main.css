@@ -81,14 +81,22 @@ a:hover {
  
 #image > img {
   width: 428px;
-  height: 640px;
-       
+  height: 640px;  
       }
 
 .card-item > img {
     display: none;
-  
       }
+
+.highlight-bright {
+  width: 100%;
+  max-width: 400px;
+  transition: filter 0.2s ease; 
+}
+
+.highlight-bright:hover {
+  filter: brightness(1.2); 
+}
 
 * {box-sizing:border-box}
 
