@@ -70,7 +70,7 @@ border-radius: 5px;
 .storymodules-item {
 margin-top: 30px;
 padding: 20px;
-background-color: #df8b65;
+background-color: rgba(245, 167, 88, 0.8);
 border-width:2px;
 border-style:solid;
 border-color: #df7c3c;
