@@ -31,11 +31,20 @@ display: block;
 margin: 0px auto;
 }
 
-.randyrejects-item {
+.randyrejectsvideo-item {
 margin-top: 30px;
 padding: 20px;
 background-color: #7458FA;
 border-radius: 10px 50px;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.randyrejectsvideo-item iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .description-item {
