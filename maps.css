@@ -36,12 +36,26 @@ border-color: #1891a8;
 border-radius: 5px;
 }
 
+.tab-item {
+margin-top: 20px;
+padding: 10px;
+background-color: #65C7EA;
+border-radius: 5px;
+}
+
+.divider-item {
+margin-top: 30px;
+padding: 20px;
+background-color: #65C7EA;
+border-radius: 5px;
+}
+
 .container {
   display: flex;
 }
 
 .item {
-  background: #CE8888;
+  background: #65C7EA;
   flex-basis: 70px;
   height: 50px;
   margin: 20px;
