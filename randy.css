@@ -81,7 +81,6 @@ a:hover {
   text-color: #F8E6FA;
   text-shadow: 2px 2px 6px #F4EFDB;
   font-size: 18px;
-  transition: filter 0.3s ease; 
 }
 
 .highlight-bright {
